@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlex - Películas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">StreamFlex</a></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar películas...">
+                <button type="submit">🔍</button>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="peliculas.html" class="active">Películas</a>
+                <a href="series.html">Series</a>
+                <a href="mi-lista.html">Mi Lista</a>
+                <a href="perfil.html">Perfil</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="page-header">
+                <h1>🎬 Catálogo de Películas</h1>
+                <div class="filters">
+                    <select class="filter-select">
+                        <option>Todos los géneros</option>
+                        <option>Acción</option>
+                        <option>Comedia</option>
+                        <option>Drama</option>
+                        <option>Familiar</option>
+                        <option>Sci-Fi</option>
+                    </select>
+                    <select class="filter-select">
+                        <option>Cualquier año</option>
+                        <option>2024</option>
+                        <option>2023</option>
+                        <option>2022</option>
+                    </select>
+                    <button class="family-filter">👨‍👩‍👧‍👦 Solo Familiares</button>
+                </div>
+            </section>
+
+            <section class="movies-catalog">
+                <div class="movies-grid">
+                    <!-- Películas familiares para José -->
+                    <div class="movie-card">
+                        <div class="movie-poster family-1">
+                            <div class="movie-overlay">
+                                <h3>Aventura Familiar</h3>
+                                <p>2024 • Aventura • ⭐ 8.1</p>
+                                <span class="family-friendly">👨‍👩‍👧‍👦 Familiar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster family-2">
+                            <div class="movie-overlay">
+                                <h3>Educación Divertida</h3>
+                                <p>2024 • Educativo • ⭐ 7.9</p>
+                                <span class="family-friendly">👨‍👩‍👧‍👦 Familiar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Películas para Laura -->
+                    <div class="movie-card">
+                        <div class="movie-poster indie-1">
+                            <div class="movie-overlay">
+                                <h3>Arte Independiente</h3>
+                                <p>2024 • Drama • ⭐ 8.8</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster indie-2">
+                            <div class="movie-overlay">
+                                <h3>Diseño Visual</h3>
+                                <p>2024 • Documental • ⭐ 9.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster action-1">
+                            <div class="movie-overlay">
+                                <h3>Thriller Moderno</h3>
+                                <p>2024 • Thriller • ⭐ 8.5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster romance-1">
+                            <div class="movie-overlay">
+                                <h3>Romance Contemporáneo</h3>
+                                <p>2024 • Romance • ⭐ 7.7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html> 

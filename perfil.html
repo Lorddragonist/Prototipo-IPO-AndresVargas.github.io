@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlex - Perfil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">StreamFlex</a></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar configuración...">
+                <button type="submit">🔍</button>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="peliculas.html">Películas</a>
+                <a href="series.html">Series</a>
+                <a href="mi-lista.html">Mi Lista</a>
+                <a href="perfil.html" class="active">Perfil</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="profile-section">
+                <h1>👤 Gestión de Perfiles</h1>
+                
+                <div class="profiles-grid">
+                    <div class="profile-card active-profile">
+                        <div class="profile-avatar laura-avatar">L</div>
+                        <h3>Laura</h3>
+                        <p>Perfil Principal</p>
+                        <span class="profile-type">Adulto</span>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-avatar jose-avatar">J</div>
+                        <h3>José</h3>
+                        <p>Perfil Familiar</p>
+                        <span class="profile-type">Adulto</span>
+                    </div>
+                    <div class="profile-card">
+                        <div class="profile-avatar kids-avatar">👶</div>
+                        <h3>Niños</h3>
+                        <p>Perfil Infantil</p>
+                        <span class="profile-type kids">Infantil</span>
+                    </div>
+                    <div class="profile-card add-profile">
+                        <div class="profile-avatar">+</div>
+                        <h3>Agregar Perfil</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="parental-controls">
+                <h2>🔒 Control Parental</h2>
+                <div class="controls-grid">
+                    <div class="control-item">
+                        <h3>Restricción por Edad</h3>
+                        <select class="age-select">
+                            <option>Todos los públicos</option>
+                            <option>Mayores de 13</option>
+                            <option>Mayores de 16</option>
+                            <option>Mayores de 18</option>
+                        </select>
+                    </div>
+                    <div class="control-item">
+                        <h3>Horario de Acceso</h3>
+                        <div class="time-controls">
+                            <input type="time" value="08:00"> - <input type="time" value="22:00">
+                        </div>
+                    </div>
+                    <div class="control-item">
+                        <h3>Contenido Bloqueado</h3>
+                        <div class="blocked-genres">
+                            <label><input type="checkbox"> Terror</label>
+                            <label><input type="checkbox"> Violencia</label>
+                            <label><input type="checkbox"> Contenido Adulto</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="accessibility-section">
+                <h2>♿ Accesibilidad</h2>
+                <div class="accessibility-options">
+                    <div class="option-item">
+                        <label>
+                            <input type="checkbox"> Subtítulos automáticos
+                        </label>
+                    </div>
+                    <div class="option-item">
+                        <label>
+                            <input type="checkbox"> Audio descriptivo
+                        </label>
+                    </div>
+                    <div class="option-item">
+                        <label>
+                            <input type="checkbox"> Contraste alto
+                        </label>
+                    </div>
+                    <div class="option-item">
+                        <label>
+                            Tamaño de texto: 
+                            <select>
+                                <option>Normal</option>
+                                <option>Grande</option>
+                                <option>Muy grande</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html> 

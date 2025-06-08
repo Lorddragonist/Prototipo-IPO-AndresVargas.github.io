@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlex - Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">StreamFlex</a></h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="login.html" class="active">Iniciar Sesión</a>
+                <a href="registro.html">Registrarse</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="login-section">
+                <div class="login-container">
+                    <div class="login-header">
+                        <h1>🎬 Bienvenido de vuelta</h1>
+                        <p>Inicia sesión para continuar disfrutando de StreamFlex</p>
+                    </div>
+                    
+                    <form class="login-form">
+                        <div class="form-group">
+                            <label for="email">📧 Correo Electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">🔒 Contraseña</label>
+                            <input type="password" id="password" name="password" placeholder="••••••••" required>
+                        </div>
+                        
+                        <div class="form-options">
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="remember">
+                                <span class="checkmark"></span>
+                                Recordarme
+                            </label>
+                            <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                        </div>
+                        
+                        <div class="form-buttons">
+                            <button type="submit" class="btn-primary">🚀 Iniciar Sesión</button>
+                            <button type="button" class="btn-secondary" onclick="window.location.href='registro.html'">
+                                ➕ Crear Cuenta
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <div class="login-divider">
+                        <span>o continúa con</span>
+                    </div>
+                    
+                    <div class="social-login">
+                        <button class="btn-social google">
+                            🌐 Google
+                        </button>
+                        <button class="btn-social facebook">
+                            📘 Facebook
+                        </button>
+                        <button class="btn-social apple">
+                            🍎 Apple
+                        </button>
+                    </div>
+                    
+                    <div class="login-footer">
+                        <p>¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

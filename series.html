@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlex - Series</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">StreamFlex</a></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar series...">
+                <button type="submit">🔍</button>
+            </div>
+            <nav class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="peliculas.html">Películas</a>
+                <a href="series.html" class="active">Series</a>
+                <a href="mi-lista.html">Mi Lista</a>
+                <a href="perfil.html">Perfil</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="page-header">
+                <h1>📺 Catálogo de Series</h1>
+                <div class="filters">
+                    <select class="filter-select">
+                        <option>Todos los géneros</option>
+                        <option>Drama</option>
+                        <option>Comedia</option>
+                        <option>Thriller</option>
+                        <option>Documental</option>
+                        <option>Familiar</option>
+                    </select>
+                    <select class="filter-select">
+                        <option>Cualquier estado</option>
+                        <option>En emisión</option>
+                        <option>Completadas</option>
+                        <option>Próximamente</option>
+                    </select>
+                    <button class="family-filter">👨‍👩‍👧‍👦 Solo Familiares</button>
+                </div>
+            </section>
+
+            <section class="series-catalog">
+                <h2>🔥 Series Populares</h2>
+                <div class="movies-grid">
+                    <!-- Series para Laura (profesional creativa) -->
+                    <div class="movie-card">
+                        <div class="movie-poster series-1">
+                            <div class="movie-overlay">
+                                <h3>Creativos Modernos</h3>
+                                <p>2024 • Drama • 3 temporadas</p>
+                                <span class="series-status">En emisión</span>
+                                <div class="movie-actions">
+                                    <button class="btn-play">▶</button>
+                                    <button class="btn-add">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster series-2">
+                            <div class="movie-overlay">
+                                <h3>Diseño & Vida</h3>
+                                <p>2024 • Documental • 2 temporadas</p>
+                                <span class="series-status">Completada</span>
+                                <div class="movie-actions">
+                                    <button class="btn-play">▶</button>
+                                    <button class="btn-add">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Series familiares para José -->
+                    <div class="movie-card">
+                        <div class="movie-poster series-3">
+                            <div class="movie-overlay">
+                                <h3>Aventuras Familiares</h3>
+                                <p>2024 • Aventura • 4 temporadas</p>
+                                <span class="family-friendly">👨‍👩‍👧‍👦 Familiar</span>
+                                <span class="series-status">En emisión</span>
+                                <div class="movie-actions">
+                                    <button class="btn-play">▶</button>
+                                    <button class="btn-add">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster series-4">
+                            <div class="movie-overlay">
+                                <h3>Historia para Todos</h3>
+                                <p>2024 • Educativo • 3 temporadas</p>
+                                <span class="family-friendly">👨‍👩‍👧‍👦 Familiar</span>
+                                <span class="series-status">Completada</span>
+                                <div class="movie-actions">
+                                    <button class="btn-play">▶</button>
+                                    <button class="btn-add">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster series-5">
+                            <div class="movie-overlay">
+                                <h3>Misterio Urbano</h3>
+                                <p>2024 • Thriller • 2 temporadas</p>
+                                <span class="series-status">En emisión</span>
+                                <div class="movie-actions">
+                                    <button class="btn-play">▶</button>
+                                    <button class="btn-add">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster series-6">
+                            <div class="movie-overlay">
+                                <h3>Comedia de Oficina</h3>
+                                <p>2024 • Comedia • 5 temporadas</p>
+                                <span class="series-status">Completada</span>
+                                <div class="movie-actions">
+                                    <button class="btn-play">▶</button>
+                                    <button class="btn-add">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="continue-watching">
+                <h2>⏯️ Continuar Viendo</h2>
+                <div class="movies-grid">
+                    <div class="movie-card">
+                        <div class="movie-poster continue-1">
+                            <div class="movie-overlay">
+                                <h3>Tech Startup</h3>
+                                <p>Temporada 2 • Episodio 5</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 75%"></div>
+                                </div>
+                                <p class="watch-progress">23 min restantes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="movie-card">
+                        <div class="movie-poster continue-2">
+                            <div class="movie-overlay">
+                                <h3>Familia Moderna</h3>
+                                <p>Temporada 1 • Episodio 3</p>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 40%"></div>
+                                </div>
+                                <p class="watch-progress">35 min restantes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html> 
